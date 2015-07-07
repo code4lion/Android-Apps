@@ -12,4 +12,46 @@
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/headings" />
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/lbl_home_title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_home_input">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:text="Rec"
+                android:id="@+id/but_home_rec" />
+
+            <Button
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="STOP"
+                android:id="@+id/but_home_stop" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/play"
+                android:id="@+id/but_home_play" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="stream"
+                android:id="@+id/but_home_stream" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>
